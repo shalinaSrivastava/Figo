@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "953769484527",
+    "firebase_url": "https://kioskstatus-5d8ae.firebaseio.com",
+    "project_id": "kioskstatus-5d8ae",
+    "storage_bucket": "kioskstatus-5d8ae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:953769484527:android:4664837a8b48cee9",
+        "android_client_info": {
+          "package_name": "com.Ecomaxgo.maxpay.kiosk_status"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "953769484527-5ajh2ngbogj8r6fd8s3e0lsdbr2mnkpg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.Ecomaxgo.maxpay.kiosk_status",
+            "certificate_hash": "d7e34667ea36531863048dddc98c405aef6f184d"
+          }
+        },
+        {
+          "client_id": "953769484527-gk43jhsiaa450nq1va8gj9mn7keanjc5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1qGcawXoOclLyAkrx0k-Zhqhe3b9ybq4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "953769484527-gk43jhsiaa450nq1va8gj9mn7keanjc5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

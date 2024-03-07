@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    tools:context=".LeaveRequest">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Request for Leave"
+            android:textStyle="bold"
+            android:textColor="#302e2e"
+            android:textSize="18sp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="#938b8b"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/from"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="TextView"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/to"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="TextView"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/etleavedetails"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/border"
+            android:gravity="top"
+            android:padding="10dp"
+            android:hint="Enter your Leave details"
+            />
+
+        <Button
+            android:id="@+id/btnsubmit1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="submit"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="100dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+            <TextView
+                android:id="@+id/tvleavename"
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:padding="5dp"
+                android:layout_height="wrap_content"
+                android:text="Rohit Sharma"
+                android:textColor="#100202"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/tvstatus"
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:padding="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_height="wrap_content"
+                android:text="sucusses"
+                android:layout_gravity="right"
+                android:gravity="right"
+                android:textColor="#56892d"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvdesination"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Android developer"/>
+
+        <TextView
+            android:id="@+id/tvmobilenumber"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content"
+            android:text="9829452005"/>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/tvleavefrom"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="10-10-2018" />
+
+            <TextView
+                android:id="@+id/tvleaveto"
+                android:layout_width="0dp"
+                android:gravity="right"
+                android:layout_marginRight="15dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="10-10-2018" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvbrief"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Applying for an emergency leave from your employer can seem hard, but any boss who considers productivity as paramount realizes that it is for the good of the firm to permit an employee to have ample and reasonable time to attend to what he terms as an emergency.  Without this, an employee might not be able to give his best to the work as a result of distractions arising from the challenges he or she is facing. " />
+
+        <TextView
+            android:id="@+id/tvreject"
+            android:layout_width="match_parent"
+            android:text=""
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:id="@+id/linearbuttons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <Button
+                android:id="@+id/btnaccept"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="0.5"
+                android:background="#399759"
+                android:gravity="center"
+                android:text="accept"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:id="@+id/btnreject"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="0.5"
+                android:background="#d71717"
+                android:gravity="center"
+                android:text="Reject"
+                android:textColor="#ffffff" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

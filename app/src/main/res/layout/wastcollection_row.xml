@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#FFF"
+    tools:context="com.Ecomaxgo.maxpay.kiosk_status.WastCollection">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/etenteryname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:hint="Enter your name"
+            android:textSize="18sp"/>
+        <EditText
+            android:id="@+id/etkioskid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:hint="kiosk_Id"
+            android:textSize="18sp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+        <Spinner
+            android:id="@+id/spinnernumberofPlastics"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:entries="@id/spinnernumberofPlastics"
+            android:prompt="@string/Plastics"
+            android:layout_marginTop="10dp"
+            android:hint="Number Of Plastics"
+            android:textSize="18sp"/>
+
+
+        <Spinner
+            android:id="@+id/spinnernumberofglasses"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:entries="@id/spinnernumberofglasses"
+            android:prompt="@string/Glasses"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:hint="Enter your name"
+            android:textSize="18sp"/>
+
+        <Spinner
+            android:id="@+id/spinnernumberoftins"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:entries="@id/spinnernumberoftins"
+            android:prompt="@string/Tins"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:hint="Enter your name"
+            android:textSize="18sp"/>
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/etrecyclecomapne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:hint="recycleCompany"
+            android:textSize="18sp"/>
+
+        <EditText
+            android:id="@+id/etcollectingperson"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:hint="collectingPerson"
+            android:textSize="18sp"/>
+
+        <EditText
+            android:id="@+id/etremark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textScaleX="1"
+            android:layout_marginTop="10dp"
+            android:hint="remark"
+            android:textSize="18sp"/>
+
+        <Button
+            android:id="@+id/btnsumbmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"
+            android:layout_marginTop="10dp"
+            />
+
+
+
+
+
+
+    </LinearLayout>
+</LinearLayout>
